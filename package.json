@@ -1,0 +1,19 @@
+{
+  "name": "festival_de_musica_inicio",
+  "version": "1.0.0",
+  "description": "proyecto con GULP SASS y HTML",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "keywords": [
+    "SASS",
+    "GULP"
+  ],
+  "author": "José Eduardo Gómez Mora",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "sass": "^1.59.3"
+  }
+}
