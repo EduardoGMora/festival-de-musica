@@ -4,16 +4,19 @@
   "description": "proyecto con GULP SASS y HTML",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch src/scss:build/css"
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
   },
   "keywords": [
     "SASS",
     "GULP"
   ],
-  "author": "José Eduardo Gómez Mora",
+  "author": "José Eduardo Gómez Mora @EduardoGMora",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "sass": "^1.59.3"
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.60.0"
   }
 }
